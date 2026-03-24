@@ -7,7 +7,7 @@ Revision Draft
 ## Contents
 
 - Documents
-  - Distributed Event & Timing Chassis [EVT-8-8](EVT-datasheet.md) Datasheet
+  - Distributed Event & Timing Chassis [EVT-8-8](documentation/EVT-datasheet.md) Datasheet
   - **[Quick-start](documentation/quick-start.md)** Guide
   - [EPICS IOC Setup](documentation/ioc-setup.md)
   - [System Setup](documentation/system-setup.md)
