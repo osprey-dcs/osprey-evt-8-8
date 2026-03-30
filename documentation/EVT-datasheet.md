@@ -12,7 +12,7 @@ Multiple chassis may be [connected together](system-setup.md#Topologies) sharing
 | ---- | ---- |
 | Height | 2U |
 | Width | 19 Inch |
-| Depth | <span style="color:red">400 mm?</span> |
+| Depth | <span style="color:red">445 mm |
 | Communication | 1Gbps Ethernet, RJ45 |
 | Power Input Voltage | 12 VDC into 2 contact [DC barrel Jack](#PowerInput)[^acdc] |
 | Number of Digital Channels | 8 Inputs, 8 Outputs per chassis |
