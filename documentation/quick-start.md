@@ -1,6 +1,6 @@
 # EVT-8-8 Quickstart Guide
 
-A (somewhat) quick overview of the components and processes for setting up a new Quartz ADC chassis.
+A (somewhat) quick overview of the components and processes for setting up a new EVT-8-8 ADC chassis.
 
 ## Equipment
 
@@ -21,7 +21,7 @@ A (somewhat) quick overview of the components and processes for setting up a new
 
 cf. [Single Chassis](system-setup.md#single-chassis) standalone wiring.
 
-1. Unbox and rack up the Quartz chassis
+1. Unbox and rack up the EVT-8-8 chassis
 1. Attach ground wire
 1. Plug in 12V AC/DC power adapter
 1. Connect ethernet

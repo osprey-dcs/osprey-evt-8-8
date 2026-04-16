@@ -51,8 +51,7 @@ Note: connecting the micro USB port will supply 3.3V power to an on-board FTDI U
 This may safely by done before or after connecting the main 12V power.
 For the purposes of this document, connect the USB first in order to see output printed during MMC boot.
 
-Depending on Quartz chassis revision, either plug into the front panel
-USB port, or remove chassis lid and look for the USB pigtail port.
+Plug into the front panel USB port.
 
 The micro USB connection on a Marble V1 PCB provides four virtual serial ports,
 which will always appear in this relative order.

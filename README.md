@@ -2,8 +2,6 @@
 Open Hardware Repository for Osprey DCS EVT-8-8
 Distributed Event & Timing Chassis.
 
-Revision Draft
-
 ## Contents
 
 - Documents

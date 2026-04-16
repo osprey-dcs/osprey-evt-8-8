@@ -42,13 +42,12 @@ PPS, along with a software NTP server.
 
 ## Connections
 
-Summary of Quartz chassis connectors referenced below
+Summary of EVT-8-8 chassis connectors referenced below
 
 - Fiber (LC)
   - Port 1 - EVR IN
   - Port 2 - EVG IN
   - Ports 3 -> 8 - EVF OUT
-- PPS TTL (BNC)
 
 <a name="Topologies"></a>
 

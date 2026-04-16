@@ -14,11 +14,11 @@ Multiple chassis may be [connected together](system-setup.md#Topologies) sharing
 | Width | 19 Inch |
 | Depth | <span style="color:red">445 mm |
 | Communication | 1Gbps Ethernet, RJ45 |
-| Power Input Voltage | 12 VDC into 2 contact [DC barrel Jack](#PowerInput)[^acdc] |
+| Power Input Voltage | 12 VDC into 2 contact |
 | Number of Digital Channels | 8 Inputs, 8 Outputs per chassis |
-| Digital Inputs | 8x SMA connecters; 50k ohm input impedance |
-| Digital Outputs | 8x SMA connecters; 50ohm drive capable; 3.3V Output |
-| Channel to Channel Jitter | < 20pSec |
+| Digital Inputs | 8x SMA connecters; 50k ohm input impedance; TTL capable |
+| Digital Outputs | 8x SMA connecters; 50ohm drive capable; LVTTL; short circuit safe |
+| Channel to Channel Jitter | < 20pSec RMS |
 
 ## Absolute Maximums
 
@@ -26,21 +26,16 @@ Multiple chassis may be [connected together](system-setup.md#Topologies) sharing
 | ---- | ---- | ---- |
 | Ambient Temperature | 0 C | 40 C |
 | Ambient Humidity | | 90% non-condensing |
-| Power Input Voltage[^acdc] | 0V DC | 13 VDC |
 | Power Current | | 4A |
-| Digital Input abs. voltage | | +6.5 V |
-| Digital Output Load| 36ohm| |
-
-[^acdc]: 120V AC/DC converter included.
-
+| Digital Input abs. voltage | | 6.5V max |
+| Digital Output drive current | | 90mA max |
+| Event Clock Rate | 50MHz |  250Mhz |
+| Event Bitrate | 1Gbps |  5Gbps |
+| Number of user configurable events | | 255 |
 
 ## Connectors
 
-<a name="PowerInput"></a>
-
-- Power Input.
-
-2 contact barrel jack, positive inside.  Cliff Electronics [SCD-026](http://www.farnell.com/datasheets/1859067.pdf)
+- 2 contact barrel jack, positive inside.  Cliff Electronics [SCD-026](http://www.farnell.com/datasheets/1859067.pdf)
 
 - Grounding stud
 
@@ -50,4 +45,4 @@ Multiple chassis may be [connected together](system-setup.md#Topologies) sharing
 
 - 16x SMA-F
 
-- Pulse Per Second, BNC-F
+- Micro USB diagnostic serial interface

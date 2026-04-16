@@ -1,7 +1,7 @@
-# Quartz EPICS IOC Setup
+# EVT-8-8 EPICS IOC Setup
 
 This document describes setting up and running an EPICS IOC
-to communicate with a Quartz ADC chassis
+to communicate with a EVT-8-8 ADC chassis
 
 ## Prerequisites
 
@@ -141,7 +141,7 @@ Microcontroller:
  IPv4 NTP server: 192.168.79.99
 FMC1 EEPROM at 0x54:
    Manufacturer: Osprey
-           Name: Quartz
+           Name: EVT-8-8
   Serial Number: 202
     Part Number: v2.1.1
 Boot flash write protected.
