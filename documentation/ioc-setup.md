@@ -15,11 +15,18 @@ to communicate with a EVT-8-8 ADC chassis
 ## Preparation
 
 ```sh
-apt-get update
-apt-get install -y build-essential git libevent-dev libz-dev libreadline-dev python3 python-is-python3
+sudo apt-get update
+sudo apt-get install -y build-essential git libevent-dev libz-dev libreadline-dev python3 python-is-python3
 ```
 
 ```sh
+git clone --branch 7.0 https://github.com/epics-base/epics-base
+git clone --branch master https://github.com/epics-base/pvxs
+git clone --branch master https://github.com/epics-modules/autosave
+git clone --branch master https://github.com/osprey-dcs/feed-core
+git clone --branch master https://github.com/osprey-dcs/timing-ioc
+git clone https://github.com/mdavidsaver/alluvium
+
 cat <<EOF > pvxs/configure/RELEASE.local
 EPICS_BASE=\$(TOP)/../epics-base
 EOF
