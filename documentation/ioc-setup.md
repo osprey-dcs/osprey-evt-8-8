@@ -170,17 +170,18 @@ netmask, and default gateway.
 For a EVG node:
 
 ```
-ntp 192.168.79.99 255.255.255.0
+gw 192.168.79.1/24
+ntp 192.168.79.99
 ```
 
 For all other nodes:
 
 ```
-ntp 0.0.0.0 255.255.255.0
+gw 192.168.79.1/24
+ntp 0.0.0.0
 ```
 
 To clear issue `ntp 0.0.0.0`.
-If the netmask is omitted, then `255.255.255.0` is used.
 Acknowledge and reboot (power cycle or issue `boot` command)
 
 When configured as a master/EVG, the node will attempt to contact the NTP server on startup.
